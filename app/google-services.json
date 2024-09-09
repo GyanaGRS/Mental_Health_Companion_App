@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1060817659401",
+    "project_id": "health-login-registration",
+    "storage_bucket": "health-login-registration.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060817659401:android:974eb6efc356ca283f7ad8",
+        "android_client_info": {
+          "package_name": "com.example.mentalhealthcompanion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByIyFtZhKZDjqgJa7c4KFm7RR4qEsnlrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

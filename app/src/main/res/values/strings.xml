@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mental Health Companion</string>
+
+    <string name="onboard1_cta_btn">Get Started —></string>
+    <string name="onboard2_cta_btn">Explore Insights —></string>
+    <string name="onboard3_cta_btn">Start Building Habits —></string>
+
+    <string name="onboard1_head"><b>Discover Your Emotional Patterns</b></string>
+    <string name="onboard2_head"><b>Personalized Insights Just for You</b></string>
+    <string name="onboard3_head"><b>Build Healthy Habits with Ease</b></string>
+
+    <string name="TrackMood">Track Your Mood</string>
+
+    <string name="signupDescription"><i>Join us and take the first step towards a healthier you! Sign up now to start your journey.</i></string>
+
+
+    <string name="onboard1_description">Log your daily emotions and experiences to uncover patterns in your mood. Our app helps you understand what affects your well-being.</string>
+    <string name="onboard2_description">Receive tailored advice and recommendations based on your unique emotional data. Let our AI guide you to better mental health.</string>
+    <string name="onboard3_description">Set and track goals for habits that improve your mental well-being. Stay motivated with reminders and positive reinforcement.</string>
+</resources>

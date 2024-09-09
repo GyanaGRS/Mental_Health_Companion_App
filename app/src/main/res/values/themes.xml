@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme for Light Mode -->
+    <style name="Base.Theme.MentalHealthCompanion" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Light mode colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="windowActionBar">false</item> <!-- Disable default Action Bar -->
+        <item name="windowNoTitle">true</item> <!-- Disable title bar -->
+    </style>
+
+    <!-- Customize Toolbar and Menu Item Text Color for Light Mode -->
+    <style name="Theme.MentalHealthCompanion" parent="Base.Theme.MentalHealthCompanion">
+        <item name="actionBarStyle">@style/Widget.AppCompat.Toolbar</item>
+        <item name="android:textColorPrimary">@color/white</item> <!-- Text color in Toolbar -->
+        <item name="android:popupMenuStyle">@style/CustomPopupMenu.Light</item> <!-- Customize menu item text color -->
+    </style>
+
+    <!-- Toolbar Customization for Light Mode -->
+    <style name="Widget.AppCompat.Toolbar" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@color/colorPrimary</item> <!-- Toolbar background color -->
+        <item name="titleTextColor">@color/white</item> <!-- Title text color -->
+    </style>
+
+    <!-- Popup Menu Customization for Light Mode -->
+    <style name="CustomPopupMenu.Light" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:textColor">@color/black</item> <!-- Menu item text color -->
+    </style>
+
+</resources>

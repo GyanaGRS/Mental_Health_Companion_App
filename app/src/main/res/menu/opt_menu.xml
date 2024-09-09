@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/opt_profile"
+        android:title="Profile"
+        android:icon="@drawable/person_outline_icon"
+        app:showAsAction="collapseActionView"/>
+
+    <item android:title="About"
+        android:id="@+id/opt_about"
+        android:icon="@drawable/outline_info_24"
+        app:showAsAction="never"/>
+
+    <item android:title="Contact Us"
+        android:id="@+id/opt_contactSupport"
+        android:icon="@drawable/outline_contact_support_24"
+        app:showAsAction="never"/>
+
+    <item android:title="Logout"
+        android:id="@+id/opt_logout"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_logout_24"/>
+
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/login_registration_background"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:layout_width="300dp"
+        android:padding="7dp"
+        android:drawableStart="@drawable/email_logo24"
+        android:layout_height="43dp"
+        android:id="@+id/edtxtemail"
+        android:background="@drawable/black_stroke"
+        android:hint="Email- id"
+        android:textColorHint="@color/black"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:padding="7dp"
+        android:drawableStart="@drawable/outline_lock_24"
+        android:layout_height="43dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/black_stroke"
+        android:hint="Password"
+        android:id="@+id/edtxt_password"
+        android:textColorHint="@color/black"
+        android:gravity="center"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"
+        android:visibility="gone"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="200dp"
+        android:layout_height="43dp"
+        android:background="@drawable/onboard_btn"
+        android:text="Login"
+        android:id="@+id/loginid"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New here?"
+            android:textSize="17sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up now"
+            android:id="@+id/signup_txtid"
+            android:layout_marginStart="9dp"
+            android:textSize="17sp"
+            android:textColor="#0D2C6A"/>
+
+    </LinearLayout>
+
+</LinearLayout>

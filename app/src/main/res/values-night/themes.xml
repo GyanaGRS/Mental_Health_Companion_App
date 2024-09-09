@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme for Dark Mode -->
+    <style name="Base.Theme.MentalHealthCompanion" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Dark mode colors -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item> <!-- Dark primary color -->
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="windowActionBar">false</item> <!-- Disable default Action Bar -->
+        <item name="windowNoTitle">true</item> <!-- Disable title bar -->
+    </style>
+
+    <!-- Customize Toolbar and Menu Item Text Color for Dark Mode -->
+    <style name="Theme.MentalHealthCompanion" parent="Base.Theme.MentalHealthCompanion">
+        <item name="actionBarStyle">@style/Widget.AppCompat.Toolbar.Dark</item>
+        <item name="android:textColorPrimary">@color/white</item> <!-- Text color in Toolbar -->
+        <item name="android:popupMenuStyle">@style/CustomPopupMenu.Dark</item> <!-- Customize menu item text color -->
+    </style>
+
+    <!-- Toolbar Customization for Dark Mode -->
+    <style name="Widget.AppCompat.Toolbar.Dark" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@color/colorPrimaryDark</item> <!-- Toolbar background color -->
+        <item name="titleTextColor">@color/white</item> <!-- Title text color -->
+    </style>
+
+    <!-- Popup Menu Customization for Dark Mode -->
+    <style name="CustomPopupMenu.Dark" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:textColor">@color/white</item> <!-- Menu item text color -->
+    </style>
+
+</resources>

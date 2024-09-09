@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+        <color name="colorPrimary">#6200EE</color>
+        <color name="colorOnPrimary">#FFFFFF</color>
+
+    <color name="colorPrimaryDark">#3700B3</color>
+
+
+
+    <color name="my_light_primary">#6200EE</color> <!-- Light mode primary color -->
+    <color name="my_dark_primary">#3700B3</color> <!-- Dark mode primary color -->
+
+</resources>
